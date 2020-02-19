@@ -1,0 +1,74 @@
+theme = "hugo-assembly-master"
+baseURL = "https://example.co"
+languageCode = "en-US"
+title = "Netflair Limited"
+
+# Metadata
+[params]
+  author = "A Human Name"
+  description = "Netflair Limited"
+
+# banner section (from here on is for assembly theme)
+[params.banner]
+  title = ""
+  byline = "We provide a broad range of network services for our clients which include designing, deploying and maintaing Cisco and Meraki wired and wireless netoworks."
+
+[params.actions] # CTAs
+  enable = false
+  register = "CTA Now!"
+
+# Navigation section
+[params.nav]
+  home = "Home"
+  services = "Services"
+  welcome = "Contact Us"
+  contact = "Contact Us"
+
+# Services section
+[params.services]
+  enable = true
+  title = "Services"
+  subtitle = ""
+
+  [[params.services.item]]
+    weight = "A"
+    description = "We help your organization in designing Cisco and Meraki wired and wireless networks."
+    button_item_info = "DESIGN"
+
+  [[params.services.item]]
+    weight = "B"
+    description = "Work with our clients on installing equipment in either their offices or data centres."
+    button_item_info = "INSTALLATION"
+
+  [[params.services.item]]
+    weight = "C"
+    description = "Network support which includes analysis, reporting and network monitoring."
+    button_item_info = "SUPPORT"
+
+# Welcome section
+[params.welcome]
+  enable = true
+  title = "Contact Us"
+  subtitle = ""
+  description = "info@netflairlimited.com"
+  button_text = "Call Now"
+
+# Contact section
+[params.contact]
+  enable = false
+#   title = "Get In Touch"
+#   message = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+#   name_placeholder = "Your name"
+#   email_placeholder = "Your email"
+#   email_disclaimer = "We'll never share your email with anyone else."
+#   message_placeholder = "Please enter a message."
+#   button_text = "Submit"
+
+# Footer section
+[params.footer]
+  enable = true
+  copy = "http://templated.co. | All rights reserved | Photo by Brett Sayles from Pexels"
+  twitter = ""
+  facebook = ""
+  instagram = ""
+
